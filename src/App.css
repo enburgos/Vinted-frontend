@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0 auto;
+  max-width: 1600px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainImg {
+  width: 100%;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainImg img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.infoImg {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 350px;
+  background-color: white;
+  border-radius: 3px;
+  position: absolute;
+  top: 25%;
+  left: 9%;
+
+}
+
+.infoImg p {
+  padding: 38px;
+  font-size: 35px;
+}
+
+.infoImg button {
+  padding: 12px;
+  width: 80%;
+  background-color: #017580;
+  font-size: 16px;
   color: white;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.infoImg span {
+
+  color: #017580;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.categorie-left {
+  display: flex;
+  overflow: scroll;
+}
+
+.sub-categorie {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.fiche-image {
+
+  width: 350px;
+  margin: 20px;
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top: solid 3px #017580;
+}
+
+
+.fiche-image h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100%;
+  background-color: #017580;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+
+.fiche-image img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.about {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+
+}
+
+.about ul {
+  display: flex;
+}
+
+.about li {
+  margin: 30px;
+}
+
+.pageAbout {
+  display: flex;
+  justify-content: center;
+}
+
+.logoVinted {
+  width: 400px;
+  padding: 50px;
 }

@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+header .logo {
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 100px;
+
+}
+
+
+
+header input {
+    width: 40%;
+    padding: 15px;
+    margin-right: 12%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(232, 232, 232);
+}
+
+.buttons {
+
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+header button {
+    white-space: nowrap;
+    padding: 10px;
+    margin: 0px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #017580;
+    color: white;
+}
